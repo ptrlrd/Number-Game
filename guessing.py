@@ -26,8 +26,8 @@ for guess_taken in range(1,7):
         except ValueError:
             print("Sorry, you did not enter a number!")
 
-    if guess == secret_number:
-        print('Great job {}! You guessed my number which was {}! It took you {} tries.'.format(name,secret_number,guess_taken))
+if guess == secret_number:
+    print('Great job {}! You guessed my number which was {}! It took you {} tries.'.format(name,secret_number,guess_taken))
 
-    if guess != secret_number:
-        print('Unfortunately, the number I was thinking of {}!'.format(secret_number))
+if guess != secret_number:
+    print('Unfortunately, the number I was thinking of {}!'.format(secret_number))
